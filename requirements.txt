@@ -1,2 +1,2 @@
 polars
-plotly.express
+plotly

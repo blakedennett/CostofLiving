@@ -2,17 +2,17 @@ import polars as pl
 import plotly.express as px
 import streamlit as st
 
-apt = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\apartment.csv')
-car_sales = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\car_sales_tax.csv')
-food = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\food.csv')
-heal_ins = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\health_insurance.csv')
-sq_f = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\house_square_footage.csv')
-homes = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\houses.csv')
-income_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\income_tax.csv')
-income = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\income.csv')
-auto = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\insurance.csv')
-sales_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\sales_tax.csv')
-property_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\ArkansasLiving\property_tax.csv')
+apt = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\apartment.csv')
+car_sales = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\car_sales_tax.csv')
+food = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\food.csv')
+heal_ins = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\health_insurance.csv')
+sq_f = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\house_square_footage.csv')
+homes = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\houses.csv')
+income_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\income_tax.csv')
+income = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\income.csv')
+auto = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\insurance.csv')
+sales_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\sales_tax.csv')
+property_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\property_tax.csv')
 
 names = pl.read_csv('https://raw.githubusercontent.com/blakedennett/LoanApprovalProject/main/data/fips2county.tsv', separator='\t') \
         .select('StateName', 'StateAbbr') \
