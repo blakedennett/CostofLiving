@@ -1,0 +1,51 @@
+state,PayEffective,income_tax,RateRank
+Alaska,61832,0.00,1
+Florida,61832,0.00,1
+Nevada,61832,0.00,1
+New Hampshire,61832,0.00,1
+South Dakota,61832,0.00,1
+Tennessee,61832,0.00,1
+Texas,61832,0.00,1
+Washington,61832,0.00,1
+Wyoming,61832,0.00,1
+North Dakota,61049,1.12,10
+Ohio,60545,1.84,11
+Arizona,60123,2.44,12
+Rhode Island,59719,3.02,13
+Pennsylvania,59683,3.07,14
+Louisiana,59630,3.15,15
+Indiana,59604,3.18,16
+New Jersey,59511,3.32,17
+New Mexico,59316,3.59,18
+Connecticut,59257,3.68,19
+Vermont,59249,3.69,20
+Colorado,59236,3.71,21
+Wisconsin,59092,3.92,22
+Michigan,59070,3.95,23
+Mississippi,59047,3.98,24
+Oklahoma,59045,3.98,24
+North Carolina,58975,4.08,26
+Missouri,58940,4.13,27
+Maryland,58823,4.30,28
+California,58779,4.36,29
+Idaho,58632,4.57,30
+Kansas,58627,4.58,31
+Alabama,58572,4.66,32
+Massachusetts,58552,4.69,33
+West Virginia,58537,4.71,34
+Kentucky,58507,4.75,36
+Maine,58500,4.76,37
+Nebraska,58499,4.76,37
+Illinois,58485,4.78,39
+Delaware,58450,4.83,40
+New York,58419,4.88,41
+Utah,58406,4.90,42
+Georgia,58399,4.90,42
+South Carolina,58384,4.93,44
+Virginia,58377,4.94,45
+Minnesota,58357,4.97,46
+Arkansas,58317,5.02,47
+Montana,58178,5.22,48
+Iowa,58028,5.43,49
+Hawaii,57080,6.79,50
+Oregon,56195,8.05,51

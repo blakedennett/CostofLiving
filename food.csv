@@ -1,0 +1,51 @@
+Rank,state,City,Population,Food_Price,Price_Change
+1,Hawaii,Honolulu,343421,638.57,81.81
+2,New York,New York City,8335897,555.11,72.24
+3,Delaware,Wilmington,71569,527.51,147.12
+4,Washington,Seattle,749256,512.11,110.03
+5,Massachusetts,Boston,650706,506.63,100.42
+6,Connecticut,Bridgeport,148377,497.70,154.40
+8,Maine,Portland,68424,486.53,114.32
+9,Alaska,Anchorage,287145,480.11,3.13
+10,Rhode Island,Providence,189563,479.81,89.62
+11,Georgia,Atlanta,499127,477.96,79.99
+12,North Carolina,Charlotte,897720,475.19,134.09
+13,North Dakota,Fargo,131444,474.01,147.35
+14,Illinois,Chicago,2665039,470.65,143.34
+15,Tennessee,Nashville,683622,469.01,122.64
+16,Oregon,Portland,635067,467.77,92.36
+17,South Dakota,Sioux Falls,202078,462.65,176.42
+18,California,Los Angeles,3822238,458.71,87.75
+19,Colorado,Denver,713252,452.45,125.53
+20,Pennsylvania,Philadelphia,1567258,444.29,43.27
+21,Louisiana,New Orleans,369749,443.34,118.15
+22,New Mexico,Albuquerque,561008,440.66,132.87
+23,Nebraska,Omaha,485153,438.79,101.89
+24,Florida,Jacksonville,971319,434.98,70.73
+25,Vermont,Burlington,44595,434.48,62.93
+26,Maryland,Baltimore,569931,429.38,85.71
+27,South Carolina,Charleston,153672,427.57,16.28
+28,Texas,Houston,2302878,424.71,138.07
+29,Alabama,Huntsville,221933,420.97,23.58
+30,Minnesota,Minneapolis,425096,416.66,21.27
+31,Montana,Billings,119960,411.70,87.79
+32,Kentucky,Louisville,624444,406.95,91.75
+33,Oklahoma,Oklahoma City,694800,401.48,54.82
+34,Ohio,Columbus,907971,392.59,51.11
+35,Michigan,Detroit,620376,392.16,65.04
+36,New Jersey,Newark,305344,390.89,47.12
+37,Wisconsin,Milwaukee,563305,383.80,2.17
+38,Indiana,Indianapolis,880621,382.62,64.59
+39,Nevada,Las Vegas,656274,382.16,88.73
+40,Missouri,Kansas City,509297,377.06,64.43
+41,Kansas,Wichita,396192,372.42,111.07
+42,Idaho,Boise,236634,371.54,90.42
+43,Mississippi,Jackson,145995,367.52,55.81
+44,Arizona,Phoenix,1644409,367.15,64.35
+45,Virginia,Virginia Beach,455618,362.00,63.99
+46,Utah,Salt Lake City,204657,359.65,77.42
+47,New Hampshire,Manchester,115141,357.33,174.33
+48,Iowa,Des Moines,211034,351.80,4.75
+49,West Virginia,Charleston,47129,347.40,79.79
+50,Arkansas,Little Rock,202864,343.15,60.69
+51,Wyoming,Cheyenne,64610,335.97,9.65

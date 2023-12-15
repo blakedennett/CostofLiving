@@ -1,0 +1,51 @@
+rank,state,score,health_insurance_yearly_avg,percent_adults_skipping_doctors
+1,South Dakota,100.00,11736,9.13
+2,Louisiana,86.69,9796,13.13
+3,West Virginia,82.31,12019,12.97
+4,Florida,79.51,9501,14.87
+5,Wyoming,78.63,10296,12.30
+6,Nebraska,75.13,9974,10.90
+7,Maine,74.08,11505,10.60
+8,Delaware,73.91,12294,10.10
+9,New Hampshire,69.53,11359,9.93
+10,Oklahoma,69.35,8997,14.70
+11,New York,67.25,13012,10.07
+12,Alaska,64.97,13188,12.43
+13,Arizona,63.05,8239,12.60
+14,Connecticut,62.00,11899,8.63
+15,Missouri,60.25,9461,12.83
+16,Tennessee,59.19,8909,13.80
+17,Kansas,58.84,8845,11.33
+18,Indiana,57.79,9914,11.40
+19,Georgia,55.52,8282,16.53
+20,Colorado,55.34,8289,11.27
+21,Illinois,53.94,9601,11.33
+21,Kentucky,53.94,9778,11.37
+23,North Carolina,53.77,8607,13.87
+24,North Dakota,52.19,10741,8.33
+25,Mississippi,51.84,8852,15.67
+26,New Jersey,51.49,11266,11.10
+27,Texas,49.56,8048,16.63
+28,Alabama,49.21,8788,15.17
+29,South Carolina,47.99,8362,13.97
+30,Montana,45.01,9791,9.40
+31,Vermont,43.78,12237,7.97
+32,California,43.26,9665,10.87
+33,Arkansas,42.03,8912,13.80
+34,Rhode Island,39.93,11049,8.83
+35,Virginia,39.40,8815,11.33
+36,Iowa,39.05,9265,7.63
+37,Utah,38.53,7241,12.23
+38,Minnesota,38.00,10510,9.23
+38,Maryland,38.00,10340,9.87
+40,Idaho,37.48,7772,13.27
+41,Ohio,34.85,10093,10.30
+42,Wisconsin,34.68,9626,9.10
+43,Oregon,33.10,9625,11.80
+44,Massachusetts,32.57,12754,8.10
+45,Pennsylvania,32.05,11229,9.00
+46,New Mexico,29.60,8505,11.90
+47,Hawaii,21.19,9593,7.10
+48,Nevada,18.21,8118,13.30
+49,Washington,1.93,8939,10.13
+50,Michigan,0.00,9524,10.30
