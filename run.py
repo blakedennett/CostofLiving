@@ -2,17 +2,17 @@ import polars as pl
 import plotly.express as px
 import streamlit as st
 
-apt = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\apartment.csv')
-car_sales = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\car_sales_tax.csv')
-food = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\food.csv')
-heal_ins = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\health_insurance.csv')
-sq_f = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\house_square_footage.csv')
-homes = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\houses.csv')
-income_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\income_tax.csv')
-income = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\income.csv')
-auto = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\insurance.csv')
-sales_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\sales_tax.csv')
-property_tax = pl.read_csv(r'C:\Users\Blake Dennett\Downloads\CostofLiving\property_tax.csv')
+apt = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/apartment.csv')
+car_sales = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/car_sales_tax.csv')
+food = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/food.csv')
+heal_ins = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/health_insurance.csv')
+sq_f = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/house_square_footage.csv')
+homes = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/houses.csv')
+income_tax = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/income_tax.csv')
+income = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/income.csv')
+auto = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/insurance.csv')
+sales_tax = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/sales_tax.csv')
+property_tax = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/property_tax.csv')
 
 names = pl.read_csv('https://raw.githubusercontent.com/blakedennett/LoanApprovalProject/main/data/fips2county.tsv', separator='\t') \
         .select('StateName', 'StateAbbr') \
