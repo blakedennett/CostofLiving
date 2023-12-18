@@ -50,7 +50,16 @@ feature = st.selectbox("Select a feature", options=(options))
 
 named_colorscales = px.colors.named_colorscales()
 
+med = df['median_home_price_per_square_foot'].median()
+
 # color = st.selectbox("Select a feature", options=(named_colorscales))
+
+if feature == 'Home Price per Square Foot':
+        fix_outlier = st.checkbox("Remove Outlier", value=False)
+        if fix_outlier:
+                df = df.with_columns(pl.when(df['state'] == 'Hawaii').then(med).otherwise(df['median_home_price_per_square_foot']).alias('median_home_price_per_square_foot')) 
+
+
 
 fig = px.choropleth(df, locations="state_abbr",
                     color=conv[feature],
