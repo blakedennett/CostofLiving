@@ -13,6 +13,7 @@ income = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLivi
 auto = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/insurance.csv')
 sales_tax = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/sales_tax.csv')
 property_tax = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/property_tax.csv')
+mortgage = pl.read_csv(r'https://raw.githubusercontent.com/blakedennett/CostofLiving/main/mortgage.csv')
 
 names = pl.read_csv('https://raw.githubusercontent.com/blakedennett/LoanApprovalProject/main/data/fips2county.tsv', separator='\t') \
         .select('StateName', 'StateAbbr') \
@@ -29,7 +30,8 @@ df = apt.join(car_sales, on='state', how='inner') \
         .join(auto, on='state', how='inner') \
         .join(sales_tax, on='state', how='inner') \
         .join(names, on='state', how='inner') \
-        .join(property_tax, on='state', how='inner')
+        .join(property_tax, on='state', how='inner') \
+        .join(mortgage, on='state', how='inner')
 
 
 conv = {'Apartment Size':'Average_Apartment_Size', 'Rent':'Average_Rent','Car Sales Tax':'car_sales_tax',
@@ -37,7 +39,7 @@ conv = {'Apartment Size':'Average_Apartment_Size', 'Rent':'Average_Rent','Car Sa
         'Home Price per Square Foot':'median_home_price_per_square_foot','House Prices':'house_price',
         'Income Tax':'income_tax','Income':'income_2021','Property Tax':'annual_property_tax_median_value',
         'Full Auto Insurance':'auto_insurance_full','Minimum Auto Insurance':'auto_insurance_minimum',
-        'Sales Tax':'State_Tax_Rate'}
+        'Sales Tax':'State_Tax_Rate', "Median Mortgage":'median_mortgage'}
 
 options = []
 for key, value in conv.items():
